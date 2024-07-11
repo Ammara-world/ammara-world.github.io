@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammara's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9f7ef;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #27ae60;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2ecc71;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #27ae60;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #projects {
+            background-color: #eafaf1;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ammara's World</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Blog</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! My name is Ammara. I am a health buff and avid reader with a passion for cooking, sewing, and gardening. I enjoy exploring new recipes, creating beautiful handmade items, and spending time in my garden. I believe in living a healthy, balanced lifestyle and love to share my journey with others.</p>
+    </section>
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <p>Welcome to my blog! Here, I aim to inspire others and be inspired by the incredible stories and experiences of people around the world. Stay tuned for posts on health, wellness, personal growth, and much more.</p>
+    </section>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <p>Here are some of my favorite projects:</p>
+
+        </ul>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>You can find me on Instagram: <a href="https://www.instagram.com/Rosy.Daydreamer" target="_blank">@rosy.daydreamer</a></p>
+        <button onclick="showMessage()">Click Me!</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Ammara's Personal Webpage</p>
+    </footer>
+    <script>
+        function showMessage() {
+            alert('Hello, Ammara!');
+        }
+    </script>
+</body>
+</html>
